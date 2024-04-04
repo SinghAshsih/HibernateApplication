@@ -11,6 +11,6 @@ public class App {
 		config.configure("/com/hibernate/hibernate.cfg.xml");
 		SessionFactory sessionFactory = config.buildSessionFactory();
 		System.out.println(sessionFactory);
-
+		System.out.println("hi");
 	}
 }
